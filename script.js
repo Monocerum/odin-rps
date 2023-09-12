@@ -52,7 +52,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 // Function to play five rounds of rock, paper, scissors
-function game() {
+function playGame() {
     // Initialize variables
     let playerWin = 0;
     let computerWin = 0;
@@ -99,4 +99,4 @@ function game() {
 }
 
 // Use the function
-game();
+playGame();
