@@ -70,7 +70,7 @@ function game() {
         let computerSelection = getComputerChoice();
         console.log("Computer Choice: " + computerSelection);
         
-        let winner = playRockPaperScissors(playerSelection, computerSelection);
+        let winner = playRound(playerSelection, computerSelection);
         console.log(winner);
 
         if (winner.includes("win", 0)) {
